@@ -49,6 +49,7 @@ nav li p {
 /* copy header end */
 
 main {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     position: relative;
     top: 80px;
@@ -79,6 +80,7 @@ main {
     font-family: 'Raleway', sans-serif;
     color: white;
     text-align: justify;
+    padding-right: 120px;
 }
 
 .container button {
@@ -89,7 +91,7 @@ main {
 
 .jumbotron {
     height: 800px;
-    margin-top: -20px;
+    margin-top: 10px;
     margin-left: -10px;
     margin-right: -10px;
     background-image:
@@ -161,13 +163,12 @@ main {
 
 .drink {
     background-color: #d9d9d9;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .drink li {
     size: 12px;
     display: inline-block;
-    width: px;
 }
 
 .minuman img {
@@ -179,7 +180,7 @@ main {
     padding-left: 10px;
 }
 
-.minuman a {
+.minuman a, .minuman p {
     text-align: center;
     text-decoration: none;
     color: #333333;
@@ -222,11 +223,12 @@ li {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 15px 10px;
     width: 100%;
     z-index: 1;
     bottom: 0;
-    left: 0%;
+    margin-left: -10px;
+    padding-bottom: 30px;
 }
   
 footer p {
