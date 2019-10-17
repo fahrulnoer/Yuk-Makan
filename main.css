@@ -24,7 +24,7 @@ nav li {
    font-weight: 600;
    font-size: 12px;
    display: inline-block;
-   float: left;
+   float: right;
    width: 100px;
    padding-right: 50px;
    padding-bottom: 10px;
@@ -37,7 +37,6 @@ nav li a {
 nav li img {
     width: 50px;
     margin-top: -20px;
-    position: fixed;
 }
 
 nav li p {
@@ -45,7 +44,7 @@ nav li p {
     color: white;
     font-size: 23px;
     margin-top: -8px;
-    margin-left: -80px;
+    margin-left: -80px
 }
 /* copy header end */
 
@@ -196,9 +195,9 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
-#minum {
+#drink {
     position: absolute;
-    top: 1500px;
+    top: -80px;
     visibility: hidden;
 }
 
