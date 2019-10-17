@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
 header {
     background-color: #333333;
     position: fixed;
@@ -43,6 +49,7 @@ nav li p {
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 nav {
@@ -86,12 +93,13 @@ aside {
     text-align: right;
     float: right;
     margin-top: -80px;
+    margin-right: 5%;
 }
 
 .pesanan {
     position: relative;
     float: right;
-    margin-right: 700px;
+    margin-right: 35%;
 }
 
 .pesanan td, th {
