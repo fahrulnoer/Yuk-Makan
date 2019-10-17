@@ -116,6 +116,11 @@ main {
     display: inline-block;
 }
 
+.bakwan li a {
+    text-decoration: none;
+    color: black
+}
+
 .bakwan {
     padding-right: 30px;
     padding-left: 10px;
@@ -159,6 +164,16 @@ main {
 
 .minuman p {
     text-align: center;
+}
+
+.drink h3 {
+    text-align: center;
+}
+
+#drink {
+    position: absolute;
+    top: -80px;
+    visibility: hidden;
 }
 
 h2 {
