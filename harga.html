@@ -8,12 +8,13 @@
     <title>Menu</title>
 </head>
 <body>
+    <form action="delivery1.html">
     <section>
         <h1>
             <center>DETAILS MENU</center>
     </section>
     <section>
-        <span>Choose Whatever You Like!</span>
+        <span><center>Choose Whatever You Like!<center></span>
         <br>
         <br>
         <table>
@@ -40,25 +41,6 @@
                     </select>
                     <label for="pisgor">Pcs</label>
                 </td>
-            </tr>
-            <tr>
-                <td>Tempe Goreng</td>
-                <td>Rp. 50.000</td>
-                <td>
-                    <select name="tegor" id="tegor">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
-                    <label for="tegor">Pcs</label>
-                 </td>
             </tr>        
             <tr>
                 <td>Tahu Isi</td>
@@ -101,7 +83,7 @@
         </table>
     </section>
     <br>
-    <section>
+    <section><center>
         <table>
             <tr>
                 <th>Drinks</th>
@@ -165,34 +147,24 @@
                     <label for="esteh">Pcs</label>
                 </td>
             </tr>
-            <tr>
-                <td>Air Mineral</td>
-                <td>Rp. 50.000</td>
-                <td>
-                    <select name="air" id="air">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
-                    <label for="air">Pcs</label>
-                </td>
-            </tr>
-        </table>
+        </table><center>
     </section>
     <br>
     <section>
-        <label>What Kind of Sambals would You Like?</label>
-        <input list="sambals" id="sambals" name="sambals">
-            <datalist id="sambals">
-                
+        <label for="sambal"><center>What Kind of Sambals would You Like?<center></label>
+        <br>
+        <input list="sambal" name="sambal">
+            <datalist id="sambal">
+                <option value="Sambal Terasi">
+                <option value="Sambal Petis">
+                <option value="Sambal Bangkok">
+                <option value="Sambal Bajak">
+                <option value="Sambal Goreng">
             </datalist>
+            <br>
+            <br>
+            <input type=submit>
     </section>
+</form>
 </body>
 </html>
