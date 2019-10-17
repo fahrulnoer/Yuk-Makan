@@ -22,14 +22,16 @@ nav li {
    font-weight: 600;
    font-size: 12px;
    display: inline-block;
+   float: right;
    width: 100px;
-   padding-left: px;
    padding-right: 50px;
+   padding-bottom: 10px;
    
   }
 
 nav li img {
-    width: 75px;
+    width: 50px;
+    margin-top: -20px;
 }
 
 main {
@@ -73,6 +75,9 @@ main {
 
 .jumbotron {
     height: 800px;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
     background-image:
     linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
     url("https://images.unsplash.com/photo-1471110338536-858caa3dbe45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
@@ -85,27 +90,42 @@ main {
 .food {
     margin: 0;
     padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #d9d9d9;
+}
+
+.food h3 {
+    text-align: center;
+}
+
+#food {
+    position: absolute;
+    top: -80px;
+    visibility: hidden;
 }
 
 .food li {
     size: 12px;
     display: inline-block;
-    width: 20px;
 }
 
 .bakwan {
-    padding-right: 200px;
-    padding-left: 5px;
+    padding-right: 30px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 .bakwan2 {
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
 }
 
 .bakwan3 {
-    padding-right: 50px;
-    padding-left: 200px;
+    padding-right: 10px;
+    padding-left: 30px;
+    text-align: center;
 }
 
 .bakwan img {
@@ -150,7 +170,9 @@ main {
 h2 {
     color: black;
     text-align: center;
+    padding-top: 100px;
 }
+
 
 p {
     color: black;
