@@ -37,7 +37,7 @@ main {
     position: relative;
     top: 80px;
 }
-  
+
 }
 
 .container {
@@ -68,7 +68,7 @@ main {
 .container button {
     font-family: 'Raleway', sans-serif;
     position: relative;
-    text align-items: left;
+    align-items: left;
 }
 
 .jumbotron {
@@ -88,7 +88,6 @@ main {
 }
 
 .food li {
-    weight: 600;
     size: 12px;
     display: inline-block;
     width: 20px;
@@ -134,7 +133,6 @@ main {
 }
 
 .drink li {
-    weight: 600;
     size: 12px;
     display: inline-block;
     width: 20px;
