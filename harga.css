@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+span {
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.tabel {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.foods td img, .drinks td img {
+    width: 180px;
+}
