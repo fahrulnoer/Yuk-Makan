@@ -14,7 +14,7 @@ header {
 nav {
     margin: 0;
     padding: 20px 0;
-  }
+}
   
 nav li {
    color: #fff;
@@ -23,7 +23,7 @@ nav li {
    font-size: 12px;
    display: inline-block;
    width: 100px;
-  }
+}
 
 main {
     text-align: center;
