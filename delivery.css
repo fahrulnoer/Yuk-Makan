@@ -19,4 +19,18 @@ nav li {
    font-size: 12px;
    display: inline-block;
    width: 100px;
+   text-decoration-style: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 200px auto;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
 }
