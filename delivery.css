@@ -7,6 +7,11 @@ header {
     left: 0%;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     margin: 0;
     padding: 20px 0;
@@ -29,8 +34,56 @@ nav li a {
 
 main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 200px auto;
-    text-align: center;
+    margin-top: 150px;
+    margin-left: 40px;
+    color: darkslategrey;
+}
+
+main h3{
     font-size: 40px;
-    letter-spacing: 10px;
+}
+
+main img {
+    position: relative;
+    align-items: center;
+}
+
+aside {
+    text-align: right;
+    float: right;
+    margin-top: -80px;
+}
+
+.pesanan {
+    position: relative;
+    float: right;
+    margin-right: 700px;
+}
+
+.pesanan td, th {
+    padding: 10px 70px 10px 5px;
+}
+
+.pesanan td {
+    border-top: groove;
+}
+
+#note {
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.pengiriman table {
+    margin-top: 30px;
+    width: 100%;
+    position: absolute;
+}
+
+.pengiriman td{
+    padding-right: 100px;
+}
+
+.pengiriman td img {
+    width: 25px;
+    opacity: 0.4;
 }
