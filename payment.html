@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="payment.css" type="text/css" rel="stylesheet">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Menu</li>
+                <li>Order</li> 
+                <li>Promo</li> 
+                <li>Help Center</li>
+                <li>Profile</li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section>
+        <h1>
+            <center>YOUR SUMMARY PAYMENT</center>
+        <br>
+    </section>
+    
+    <section>
+        <h2>Your total payment is Rp 250.000</h2>
+        <br>
+
+        <label for="pay">Select your payment method:</label>
+        <input list="pay-method" id="pay" name="pay" type="text" required>
+            <datalist id="pay-method">
+                <option value="Credit Card"></option>
+                <option value="Internet Banking"></option>
+                <option value="Go Pay"></option>
+                <option value="Ovo"></option>
+                <option value="Dana"></option>
+                <option value="LinkAja"></option>
+            </datalist>
+        <br>
+        <br>
+
+        <label for="account">Account No. :</label>
+        <input name="account" id="account" type="text" required>
+    
+        <br>
+        <br>
+        <hr>
+        <br>
+        
+        <center><input type="submit" value="Confirm your payment"></center>
+    
+    </section>
+</body>
+
+    <footer>
+        <h3>Contact</h3>
+        <h3>Our Location</h3>
+        <h3>Privacy Policy</h3>
+    </footer>
+
+</html>
