@@ -26,9 +26,12 @@ nav li {
    width: 100px;
    padding-right: 50px;
    padding-bottom: 10px;
-   
   }
-
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+  
 nav li img {
     width: 50px;
     margin-top: -20px;
@@ -128,34 +131,18 @@ main {
     text-align: center;
 }
 
-.bakwan img {
+.bakwan img, .bakwan2 img, .bakwan3 img {
     width: 350px;
 }
 
-.bakwan2 img {
-    width: 350px;
-}
-
-.bakwan3 img {
-    width: 350px;
-}
-
-.bakwan p {
-    text-align: center;
-}
-
-.bakwan2 p {
-    text-align: center;
-}
-
-.bakwan3 p {
+.bakwan p, .bakwan2 p, .bakwan3 p {
     text-align: center;
 }
 
 .drink li {
     size: 12px;
     display: inline-block;
-    width: 20px;
+    width: 350px;
 }
 
 .minuman img {
@@ -165,6 +152,10 @@ main {
 .minuman {
     padding-right: 350px;
     padding-left: 25px;
+}
+
+.minuman p {
+    text-align: center;
 }
 
 h2 {
