@@ -196,9 +196,9 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
-#drink {
+#minum {
     position: absolute;
-    top: -80px;
+    top: 1500px;
     visibility: hidden;
 }
 
