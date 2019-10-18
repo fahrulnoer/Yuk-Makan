@@ -89,7 +89,7 @@ main {
     align-items: left;
 }
 
-.jumbotron {
+.background-home {
     height: 800px;
     margin-top: 10px;
     margin-left: -10px;
@@ -98,9 +98,6 @@ main {
     linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
     url("https://images.unsplash.com/photo-1471110338536-858caa3dbe45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .food {
