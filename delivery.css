@@ -76,7 +76,7 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 150px;
     margin-left: 40px;
-    min-height: 700px;
+    min-height: 800px;
     max-height: 1000px;
     color: darkslategrey;
 }
