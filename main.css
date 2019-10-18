@@ -38,9 +38,18 @@ nav li img {
     width: 50px;
     margin-top: -20px;
 }
+
+nav li p {
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 23px;
+    margin-top: -8px;
+    margin-left: -80px
+}
 /* copy header end */
 
 main {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     position: relative;
     top: 80px;
@@ -60,7 +69,7 @@ main {
 }
 
 .container h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Satisfy', cursive;
     color: white;
     text-align: left;
     text-shadow: b;
@@ -71,6 +80,7 @@ main {
     font-family: 'Raleway', sans-serif;
     color: white;
     text-align: justify;
+    padding-right: 120px;
 }
 
 .container button {
@@ -81,7 +91,7 @@ main {
 
 .jumbotron {
     height: 800px;
-    margin-top: -20px;
+    margin-top: 10px;
     margin-left: -10px;
     margin-right: -10px;
     background-image:
@@ -94,6 +104,7 @@ main {
 }
 
 .food {
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 20px 0;
     overflow: hidden;
@@ -106,6 +117,7 @@ main {
 }
 
 #food {
+    font-family: 'Raleway', sans-serif;
     position: absolute;
     top: -80px;
     visibility: hidden;
@@ -143,14 +155,20 @@ main {
     width: 350px;
 }
 
-.bakwan p, .bakwan2 p, .bakwan3 p {
+.bakwan a, .bakwan2 a, .bakwan3 a {
     text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.drink {
+    background-color: #d9d9d9;
+    padding-top: 20px;
 }
 
 .drink li {
     size: 12px;
     display: inline-block;
-    width: 350px;
 }
 
 .minuman img {
@@ -158,16 +176,23 @@ main {
 }
 
 .minuman {
-    padding-right: 350px;
-    padding-left: 25px;
+    padding-right: 30px;
+    padding-left: 10px;
 }
 
-.minuman p {
+.minuman a, .minuman p {
     text-align: center;
+    text-decoration: none;
+    color: #333333;
 }
 
 .drink h3 {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
+}
+
+.drink p {
+    font-family: 'Raleway', sans-serif;
 }
 
 #drink {
@@ -177,6 +202,7 @@ main {
 }
 
 h2 {
+    font-family: 'Raleway', sans-serif;
     color: black;
     text-align: center;
     padding-top: 100px;
@@ -197,19 +223,21 @@ li {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 15px 10px;
     width: 100%;
     z-index: 1;
     bottom: 0;
-    left: 0%;
+    margin-left: -10px;
+    padding-bottom: 30px;
 }
   
 footer p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Fira Code', monospace;
     text-transform: uppercase;
     font-size: 11px;
-    color: white;
+    color: #d9d9d9;
     text-align: center;
+    padding: 0px 200px;
 }
 
 footer li {
@@ -225,4 +253,3 @@ footer ul {
 footer img {
     width: 25px;
 }
-  
