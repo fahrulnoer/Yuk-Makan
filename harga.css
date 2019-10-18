@@ -1,5 +1,43 @@
 body {
     text-align: center;
+    margin-top: 110px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+}
+
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+  
+nav li {
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 12px;
+   display: inline-block;
+   float: right;
+   width: 100px;
+   padding-right: 50px;
+   padding-bottom: 10px;
+  }
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+  
+nav li img {
+    width: 50px;
+    margin-top: -20px;
+    position: relative;
 }
 
 span {
@@ -18,9 +56,28 @@ table {
 
 .tabel {
     text-align: center;
-    margin: 0 auto;
+    margin top: 50px;
 }
 
-.foods td img, .drinks td img {
-    width: 180px;
+
+img {
+    width: 200px;
+}
+
+span {
+    margin: 200px auto;
+}
+
+input {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#food, #drinks {
+    margin-top: 10px;
 }

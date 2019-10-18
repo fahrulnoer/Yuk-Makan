@@ -9,16 +9,31 @@
 </head>
 
 <body>
-    <div>
-        <h1>MENU TERBAIK KAMI</h1>
-    </div>
-    <span>Menu Makanan Pilihan</span>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#contact"> CONTACT </a></li>
+                <li><a href="harga.html"> ORDER </a></li>
+                <li><a href="#drink"> DRINK </a></li>
+                <li><a href="#food"> FOOD </a></li>
+                <li><a href="index.html"> HOME </a></li>
+                <li></li>
+                <li></li>
+                <li>
+                    <a href="index.html">
+                        <img src="https://cdn.pixabay.com/photo/2017/02/21/08/49/food-2085075_960_720.png">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <br>
-    <div class="tabel">
-        <form class="foods" method="POST">
-        <table>
+    <div class="makanan">
+        <table id="foods">
+            <form class="foods" method="POST">
             <tr>
-                <th>Makanan</th>
+                <th id="food">Makanan</th>
                 <th colspan="10">Harga Satuan</th>
                 <th></th>
                 <th></th>
@@ -29,8 +44,8 @@
             <tr>
                 <td>
                 <figure>
-                <img src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"/>
-                <figcaption>Pisang Goreng</figcaption>
+                    <img src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"/>
+                    <figcaption>Pisang Goreng</figcaption>
                 </figure>
                 </td>
                 <td colspan="10">Rp. 10.000</td>
@@ -39,26 +54,15 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <select name="pisgor" id="pisgor">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
+                    <input type="number" name="points" value="0" step="1" min="0" style="width: 2em" required>
                     <label for="pisgor">Pcs</label>
                 </td>
             </tr>        
             <tr>
                 <td>
                 <figure>
-                <img src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/09/27/539981277.jpg"/>
-                <figcaption>Tahu Isi</figcaption>
+                    <img src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/09/27/539981277.jpg"/>
+                    <figcaption>Tahu Isi</figcaption>
                 </figure>
                 </td>
                 <td  colspan="10">Rp. 10.000</td>
@@ -67,26 +71,15 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <select name="tahis" id="tahis">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
+                    <input type="number" name="points" value="0" step="1" min="0" style="width: 2em" required>
                     <label for="tahis">Pcs</label>
                 </td>
             </tr>
             <tr>
                 <td>
                 <figure>
-                <img src="https://cdn1-production-images-kly.akamaized.net/co1h9gLGVE0aWVRlPyK5E_7DYIo=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2329780/original/024765400_1534240354-resep-bakwan-mie-instan-renyah.jpg"/>
-                <figcaption>Bakwan</figcaption>
+                    <img src="https://cdn1-production-images-kly.akamaized.net/co1h9gLGVE0aWVRlPyK5E_7DYIo=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2329780/original/024765400_1534240354-resep-bakwan-mie-instan-renyah.jpg"/>
+                    <figcaption>Bakwan</figcaption>
                 </figure>
                 </td>
                 <td  colspan="10">Rp. 10.000</td>
@@ -95,139 +88,97 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <select name="bakwan" id="bakwan">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
+                    <input type="number" name="points" value="0" step="1" min="0" style="width: 2em" required>
                     <label for="bakwan">Pcs</label>
                 </td>
             </tr>
+        </form>
+    </table>
+    </div>
+    <br>
+    <br>
+    <div class="minuman">
+        <table id="drinks">
+            <form class="drinks" method="POST">
+                <tr>
+                    <th id="drink">Minuman</th>
+                    <th colspan="10">Harga Satuan</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>Banyaknya</th>
+                </tr>
+                <tr>
+                    <td>
+                    <figure>
+                        <img src="https://kedainews.com/wp-content/uploads/2019/03/bandrek.jpg"/>
+                        <figcaption>Bandrek</figcaption>
+                    </figure>
+                    </td>
+                    <td  colspan="10">Rp. 10.000</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="number" name="points" value="0" step="1" min="0" style="width: 2em" required>
+                        <label for="bandrek">Pcs</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <figure>
+                        <img src="https://img-global.cpcdn.com/003_recipes/fbd758f3a54e8a44/751x532cq70/bajigur-foto-resep-utama.jpg"/>
+                        <figcaption>Bajigur</figcaption>
+                    </figure>
+                    </td>
+                    <td  colspan="10">Rp. 10.000</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="number" name="points" value="0" step="1" min="0" style="width: 2em" required>
+                        <label for="bajigur">Pcs</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"/>
+                        <figcaption>Es Teh</figcaption>
+                    </figure>
+                    </td>
+                    <td  colspan="10">Rp. 10.000</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="number" name="points" value="0" step="1" min="0" style="width: 2em">
+                        <label for="esteh">Pcs</label>
+                    </td>
+                </tr>
+            </table>
+            </form>
+            <span for="sambal">Tambahkan Sambal Favorit Anda?</span>
+            <br>
+            <br>
+            <form class="tambahan" method="POST" action="payment.html"> 
+                <input list="sambal" name="sambal">
+                    <datalist id="sambal">
+                        <option value="Sambal Terasi">
+                        <option value="Sambal Bajak">
+                        <option value="Sambal Bangkok">
+                        <option value="Sambal Petis">
+                        <option value="Sambal Korek">
+                    </datalist>
+                    <br>
+                    <br>
+                    <button type="submit">Submit Order</button>
+            </form>
         </table>
-        </form>
-        <br>
-        <span>Minuman Pelengkap Makananmu</span>
-        <br>
-        <form class="drinks" method="POST">
-        <table>
-            <tr>
-                <th>Minuman</th>
-                <th colspan="10">Harga Satuan</th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th>Banyaknya</th>
-            </tr>
-            <tr>
-                <td>
-                <figure>
-                <img src="https://kedainews.com/wp-content/uploads/2019/03/bandrek.jpg"/>
-                <figcaption>Bandrek</figcaption>
-                </figure>
-                </td>
-                <td  colspan="10">Rp. 10.000</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <select name="bandrek" id="bandrek">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
-                    <label for="bandrek">Pcs</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                <figure>
-                <img src="https://img-global.cpcdn.com/003_recipes/fbd758f3a54e8a44/751x532cq70/bajigur-foto-resep-utama.jpg"/>
-                <figcaption>Bajigur</figcaption>
-                </figure>
-                </td>
-                <td  colspan="10">Rp. 10.000</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <select name="bajigur" id="bajigur">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
-                    <label for="bajigur">Pcs</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                <figure>
-                    <img src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"/>
-                <figcaption>Es Teh</figcaption>
-                </figure>
-                </td>
-                <td  colspan="10">Rp. 10.000</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <select name="esteh" id="esteh">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    </select>
-                    <label for="esteh">Pcs</label>
-                </td>
-            </tr>
-        </table>
-        </form>
-        <span for="sambal">Tambahkan Sambal Favorit Anda?</span>
-        <br>
-        <br>
-        <form class="tambahan" method="POST">
-            <input list="sambal" name="sambal">
-                <datalist id="sambal">
-                    <option value="Sambal Terasi">
-                    <option value="Sambal Bajak">
-                    <option value="Sambal Bangkok">
-                    <option value="Sambal Petis">
-                    <option value="Sambal Korek">
-                </datalist>
-                <br>
-                <br>
-            <input type="submit" value="Submit Order">
-        </form>
     <div>
 </body>
 </html>
